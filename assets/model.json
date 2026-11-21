@@ -1,0 +1,70 @@
+{
+  "version": "renal-ct-20261121-r2-provisional",
+  "analysis_date": "2026-11-21",
+  "species": "dog",
+  "modality": "CT",
+  "formula": "a * BW ** b",
+  "n_examinations": 122,
+  "n_provisional_individuals": 121,
+  "n_additional": 0,
+  "weight_range_kg": [
+    1.37,
+    45.0
+  ],
+  "center_fit": "R nls raw scale; unweighted examinations; original coefficient reproduction",
+  "coefficients": {
+    "LV": {
+      "a": 4.34545520942638,
+      "b": 0.842174627008223,
+      "unit": "cm3"
+    },
+    "RV": {
+      "a": 4.09640672731095,
+      "b": 0.854231937523013,
+      "unit": "cm3"
+    },
+    "LL": {
+      "a": 2.72119302649177,
+      "b": 0.300854505300595,
+      "unit": "cm"
+    },
+    "RL": {
+      "a": 2.78919673828028,
+      "b": 0.296873886902637,
+      "unit": "cm"
+    },
+    "LS": {
+      "a": 1.57823967386427,
+      "b": 0.267347969016492,
+      "unit": "cm"
+    },
+    "RS": {
+      "a": 1.43204584587522,
+      "b": 0.291128076459471,
+      "unit": "cm"
+    },
+    "LT": {
+      "a": 1.56024093600093,
+      "b": 0.253031651847407,
+      "unit": "cm"
+    },
+    "RT": {
+      "a": 1.51172183532529,
+      "b": 0.250271647150801,
+      "unit": "cm"
+    }
+  },
+  "source": "原 健人・柿崎竹彦ら（2026）CT検査を受けたイヌにおける腎臓サイズと体重との関係. 獣医画像診断 第23号:3–11.",
+  "validation": {
+    "status": "EXPLORATORY; no clinical reference interval",
+    "summary_ja": "個体単位の10分割×5反復の検証で、8項目の全体包含率は94.0〜95.0%でした（各個体の代表1検査で集計）。30 kg超の左腎横径は毎回11例中9例、81.8%でした。"
+  },
+  "approval": "Basic reference calculation accepted by user; clinical interpretation and prediction bands not formally validated.",
+  "known_issue": {
+    "endpoint": "LV",
+    "statistic": "standard error of coefficient a",
+    "paper_value": 0.8,
+    "recomputed_value": 0.516593179821845,
+    "status": "unresolved; paper not amended"
+  }
+}

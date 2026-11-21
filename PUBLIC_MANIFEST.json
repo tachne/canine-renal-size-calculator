@@ -1,0 +1,73 @@
+{
+  "application_version": "0.1.0-rc1",
+  "model_version": "renal-ct-20261121-r2-provisional",
+  "created": "2026-11-21",
+  "content": "Standalone application and aggregate model assets only",
+  "manifest_note": "Hashes cover all payload files; this manifest does not hash itself.",
+  "files": {
+    ".gitignore": {
+      "sha256": "647cfd40426fdf0da0ef4cc01e3212f9df203a00576cdbd1372e41057a3df054",
+      "bytes": 160
+    },
+    ".streamlit/config.toml": {
+      "sha256": "c684e36905912830b9a4dffeb568663f4cd8f684685c64935e916dc584e2fcfb",
+      "bytes": 61
+    },
+    "CHANGELOG.md": {
+      "sha256": "9670a7929ae5ba6a7798e37d7278a17a52f6c5168c78c21feac8ff165abbe593",
+      "bytes": 1141
+    },
+    "README.md": {
+      "sha256": "020ab4179d99fd84b5d8905cf3c4e490577b44174de7e59907e38ba9d9aa254d",
+      "bytes": 3841
+    },
+    "assets/model.json": {
+      "sha256": "57078e037ad4db42220f6634ab92484b35c97c6f73cff9b2b3cfe2220afabe84",
+      "bytes": 1995
+    },
+    "assets/exploratory_prediction_grid.csv": {
+      "sha256": "f1eb0ea7e61186f6a2832a392a0a4cbe5ed6f9a8ddb36955b4f0362627939b1e",
+      "bytes": 128500
+    },
+    "assets/reference_predictions.csv": {
+      "sha256": "64a6a7128e6f0c7d88bdf62e0a1e2f8096739b77157f44618e385cd02689539c",
+      "bytes": 1558
+    },
+    "docs/DEPLOYMENT.md": {
+      "sha256": "850ce03632fab0f2f630e98bbebcb9cde58392cd65755c1c445ac9d7dd85dcdd",
+      "bytes": 6293
+    },
+    "docs/KNOWN_ISSUES.md": {
+      "sha256": "a5d431cadac58e7d952fa7fc8b357424b587f3f75f560d12c9ecc2b590f63578",
+      "bytes": 2838
+    },
+    "docs/PRIVACY.md": {
+      "sha256": "95f3dd1d6263178cc17866725d1239e18ecbee61bce2fd6ce0c5948384cb4100",
+      "bytes": 1486
+    },
+    "docs/SENSITIVITY.md": {
+      "sha256": "ee17aa23726eb8659a16293513663e5e169d91922d1ed1b773b99c47e0426a07",
+      "bytes": 3262
+    },
+    "docs/TEST_RESULTS.md": {
+      "sha256": "aead9051acd142f0c7206563fcd4d57d1638019e51bdd9055f0b8dd419b2f26a",
+      "bytes": 3782
+    },
+    "renal_calculator.py": {
+      "sha256": "7f195ca5bef2b1c30bd88c362f364e2f203e7cd022339a83b72d50480b994f8c",
+      "bytes": 3097
+    },
+    "requirements.txt": {
+      "sha256": "cf7df174d0bd176d9eb06dfdd1538822460da7c323a8a2e733e9a11e3da02a68",
+      "bytes": 46
+    },
+    "streamlit_app.py": {
+      "sha256": "c5ac1b399b063570c6fa54928f6ebc18fecc5a7ad0cbb830e88dce07dfac65d9",
+      "bytes": 8473
+    },
+    "tests/test_public_app.py": {
+      "sha256": "550f79eadd77bd563894d23380097a93b594bb689faaa6ac3fb2951ef25f2d32",
+      "bytes": 9181
+    }
+  }
+}
